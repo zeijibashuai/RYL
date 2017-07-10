@@ -1,0 +1,577 @@
+html{
+	font-size: 100px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+}
+#loading{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+	 left: 0;
+	transition: all 2s;
+}
+ #loading .bg{
+ 	width: 100%;
+ 	height: 100%;
+ 	background: url(../img/q1.jpg) no-repeat;
+ 	background-size: 100% 100% ;
+ }
+.progress{
+	background-color: lawngreen ;
+	width:0.3rem;
+	position: absolute;
+	left: 16%;
+	top: 51%;
+	height: 6.6rem;
+	animation:bounceInDown 1s  ;
+	
+}
+.progressBox{
+	width: 100%;
+	height: 100%;
+	background-color: #fff ;
+	/*animation:qwe .5s .5s infinite both;*/
+	
+}
+.progreesBox{
+	position: absolute;
+	top: 60%;
+	left: -0.2rem;
+	width: 96%;
+	height: 0.3rem;
+	background-color: #fff;
+	animation: bounceInRight  1s ;
+	
+}
+.name{
+	width: 5rem;
+	height: 10rem;
+	position: absolute;
+	left: 26%;
+	top: 68%;
+	color: #fff;
+}
+.name .title{
+	 font-size: 0.96rem;
+	 margin-bottom: 0.86rem;
+	 animation: flash 0.3s 3;
+}
+.name .span1{
+	display: block;
+	margin-top: 0.3rem;
+	font-family: "微软雅黑";
+	font-size: 0.82rem;
+	animation: tada 1.86s infinite;
+}
+.yinying{
+	position: absolute;
+	/*background-color: #000000;*/
+	width: 2.6rem;
+	height: 0.3rem;
+	border-radius: 50% ;
+	left: -2rem;
+	box-shadow: 0.8rem 4.76rem 12px rgba(564,122,100,.66);
+	animation: pulse 1s 2.35s infinite;
+	
+}
+.bukeai{
+	z-index: 66;
+	position: absolute;
+	left: 50%;
+	animation: fadeInUpBig 2.3s ;
+	top: 50%;
+	
+}
+.keai{
+	position: absolute;
+	width: 2.8rem;
+	height: 3.1rem;
+	left: -1.4rem;
+	top: -4.28rem;
+	
+}
+
+
+
+#K{
+	
+	width: 100%;
+	height: 100%;
+	background-color: peachpuff;
+}
+.mui-bar{
+	background-color: #FFDAB9;
+	box-shadow: 1px 1px 1px #FFDAB9;
+	
+	}
+
+.loading-img{
+	position: relative;
+	top: 50%;
+	left: 50%;
+}
+.qwe{
+	position: absolute;
+	height: 1.6rem;
+	width: 1.6rem;
+	left: -0.8rem;
+	top: -0.8rem;
+}
+.text{
+	position: absolute;
+	top:5rem;
+	left: -1.5rem;
+}
+.da{
+	overflow: hidden;
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	width: 4.6rem;
+	height: .3rem;
+	margin: 0.85rem 0 0 -2.3rem;
+	background: #fff;
+	border-radius: 0.06rem;
+}
+.xiao{
+	width:0% ;
+	height: 100%;
+	border-radius:0.06rem ;
+	background: linear-gradient(45deg,#5cB85c 25%,#74c274 25%,#74c274 50%,#5cB85c 50%,#5cB85c 75%,#74c274 75%);
+	background: -webkit-linear-gradient(45deg,#5cB85c 25%,#74c274 25%,#74c274 50%,#5cB85c 50%,#5cB85c 75%,#74c274 75%);
+	background-size: 0.3rem 0.3rem;
+	-webkit-animation:loadingMove 1s linear infinite both ;
+	animation:loadingMove 1s linear infinite both ;
+	-webkit-transition: all 1s linear;
+	transition: all 1s linear;
+}
+.all{
+	
+	
+	width: 1rem;
+	height: 1rem;
+}
+.all img{
+      width: 100%;
+      height: 100%;
+}
+.jiantou{
+	z-index: 99;
+	position: absolute;
+	width: 1.2rem;
+	top: 50%;
+	right: 0;
+	height: 1.2rem;
+}
+.jiantou a{
+	
+	position: absolute;
+	font-size: 0.6rem;
+	color: #fff;
+	top:-0.6rem;
+	
+	transform: rotate(180deg) ;
+	animation:ow 1s infinite ;
+	 
+}
+.shoushou{
+	transform: scale(0.6);
+	position: absolute;
+	top: -0.26rem;
+	right: -0.3rem;
+	animation: flash 2s infinite;
+
+}
+.royal{
+	
+	z-index: 67;
+	transform: scale(0.86);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	/*animation:fadeInDown 2s  ;*/
+}
+#royal{
+	
+	width: 2.8rem;
+	height: 3.1rem;
+	position: absolute;
+	left: -0.5rem;
+	top: -6.3rem;
+	
+	
+	animation: royal 3.6s;
+	
+}
+.fixd{
+	z-index: 9999999;
+
+}
+
+#tyu{
+
+	animation: fadeInRight 3.3s;
+}
+
+.one{
+	z-index: 20;
+	position: fixed;
+	right: 0.3rem;
+	top: 0.3rem;
+	animation: quanquan 5s linear infinite;
+	
+	
+	
+}
+.two{
+	z-index: 66;
+	position: fixed;
+	right: -0.2rem;
+	top: -0.2rem;
+}
+/*======================================*/
+#S{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 100%;
+	top: 0;
+	
+	transition: all 2s  ; 
+	/*background: url(../img/q4.jpg)no-repeat;
+	background-size: 100% 100%;*/
+	
+	/*display: none;*/
+	 transform-style：preserve-3d;
+	 perspective: 1200;
+	 /*display: none;*/
+}
+
+.lv{
+	width: 86%;
+	height: 82%;
+	background: mediumaquamarine;
+	opacity: 0.8;
+	position: absolute;
+	top: 9%;
+	left: 7%;
+	
+	
+}
+#lvv{
+	animation: lv 1.5s;
+	transform: rotate(0deg);
+	
+	
+	
+}
+.bai{
+	width: 82%;
+	height: 78%;
+	background: #fff;
+	opacity: 0.8;
+	position: absolute;
+	top: 11%;
+	left: 9%;
+	padding: 0.6rem 0.3rem;
+	
+	
+}
+#baib{
+	animation: baib 3s;
+	transform: rotate(0deg);
+	
+	
+}
+.caidai{
+	z-index: ;
+	position: absolute;
+	width: 82%;
+	height: 78%;
+	top: 6rem;
+	left: 0.5rem;
+	background: url(../img/caidai.png);
+	animation: fadeIn 2s;
+	
+}
+.caidai #caidai{
+	width: 70%;
+	height: 100%;
+}
+.qiqiu1 img{
+	z-index: 66;
+	position: absolute;
+	transform: scale(0.5);
+	left: rem;
+	top: -0.8rem;
+	display: none;
+	
+}
+.qiqiu2 img{
+	z-index: 66;
+	position: absolute;
+	transform: scale(0.5);
+	left: -0.2rem;
+	top: 4.4rem;
+	display: none;
+	
+}
+.qiqiu3 img{
+	z-index: 66;
+	position: absolute;
+	transform: scale(0.5);
+	left: 0.2rem;
+	top: 5.53rem;
+	
+	display: none;
+}
+.qiqiu4 img{
+	z-index: 66;
+	position: absolute;
+	transform: scale(0.5);
+	left: 5rem;
+	top: 2.3rem;display: none;
+	
+	
+}
+.qiqiu5 img{
+	z-index: 66;
+	position: absolute;
+	transform: scale(0.5);
+	left: 4.2rem;
+	top: 7.6rem;
+	display: none;
+	
+	
+}
+#q1{
+	animation: qiuqiu 2s;
+	display: block;
+	
+}
+#q2{
+	animation: qiuqiu 2s;display: block;
+	
+}
+#q3{
+	animation: qiuqiu 2s;display: block;
+	
+}
+#q4{
+	animation: qiuqiu 2s;display: block;
+	
+}
+#q5{
+	animation: qiuqiu 2s;display: block;
+	
+}
+.qizhi{
+	z-index: 63;
+	position: absolute;
+	
+	top: -0.5rem;
+	transform: scale(0.7);
+}
+.xueli{
+	
+	
+	width: 100%;
+	height: 1.1rem;
+	background: plum;
+	line-height: 1.1rem;
+	text-align: center;
+	letter-spacing:5px;
+	font-size: 0.26rem;
+	color: #fff;
+	text-shadow: 2px 2px 2px #333333;
+	margin-bottom: 0.2rem;
+	border-radius: 12px;
+	
+}
+.shenqingzhiwei{
+	width: 100%;
+	height: 1.1rem;
+	background: orange;
+	line-height: 1.1rem;
+	text-align: center;
+	letter-spacing:5px;
+	font-size: 0.26rem;
+	color: #fff;
+	text-shadow: 2px 2px 2px #333333;
+	margin-bottom: 0.2rem;
+	border-radius: 12px;
+}
+.jingyan{
+	width: 100%;
+	height: 1.1rem;
+	background: #FF5053;
+	line-height: 1.1rem;
+	text-align: center;
+	letter-spacing:5px;
+	font-size: 0.26rem;
+	color: #fff;
+	text-shadow: 2px 2px 2px #333333;
+	margin-bottom: 0.2rem;
+	border-radius: 12px;
+	
+}
+.dianhua{
+	width: 100%;
+	height: 1.1rem;
+	background: yellow;
+	line-height: 1.1rem;
+	text-align: center;
+	letter-spacing:5px;
+	font-size: 0.26rem;
+	color: #fff;
+	text-shadow: 2px 2px 2px #333333;
+	margin-bottom: 0.2rem;
+	border-radius: 12px;
+	
+}
+.youxiang{
+	width: 100%;
+	height: 1.1rem;
+	background: lawngreen;
+	line-height: 1.1rem;
+	text-align: center;
+	letter-spacing:5px;
+	font-size: 0.26rem;
+	color: #fff;
+	text-shadow: 2px 2px 2px #333333;
+	margin-bottom: 0.2rem;
+	border-radius: 12px;
+}
+
+#mabi{
+	height: 100%;
+	width: 100%;
+}
+/*#S>img{
+	z-index: -2;
+}*/
+.jiantou2{
+	z-index: 66;
+	position: absolute;
+	width: 1.2rem;
+	top: 96%;
+	left: 50%;
+	height: 1.2rem;
+	
+}
+.jiantou2 a{
+	width: 1.2rem;
+	
+	position: absolute;
+	/*font-size: 0.6rem;*/
+	color: #fff;
+	top:-0.6rem;
+	left:-0.6rem ;
+	transform: rotate(270deg) ;
+	animation:vp 1s  infinite ;
+	
+	
+	 
+}
+
+.xianshi{
+	position: absolute;
+	left: 0.2rem;
+	right: 0.2rem;
+	
+	top:50%;
+	background:rgba(233,266,166,0.3);
+	background-size: 100% 100%;
+	padding: 5px;
+	text-align: center;
+	border-radius: 16px ;
+}
+.v{
+	height: 0.44rem;
+	
+	z-index: 666666;
+	
+	font-family: "黑体";
+	font-size: 0.44rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+.qiu1{
+	
+	position: absolute;
+	left: 0.5rem;
+	
+	top: 106%;
+	width: 5.7rem;
+	height: 5.4rem;
+	
+	animation: quanquan 10s linear infinite;
+	transition: all 3.6s;
+	
+	
+	/*background-color: #000000 ;*/
+	
+	/*width: 50%;
+	height: 50%;*/
+}
+
+#mi1{
+	position: absolute;
+	
+	width: 100%;
+	height: 100%;
+	background: url(../img/mi1.jpg)center no-repeat;
+	top: 100%;
+	transition: all 2s;
+}
+#mi1 p{
+	
+	width: 0.36rem;
+	font-size: 0.36rem;
+	color: #fff;
+	text-shadow: 5px 5px 5px dimgrey;	
+	
+	
+}
+.zi{position: absolute;
+	top: -590%;
+	margin: 0 auto;
+	width: 0.36rem;
+}
+.x1{
+	z-index: 666;
+	position: absolute;
+	left:-0.8rem; 
+	top:-590%;
+	width: 0.03rem;
+	height: 3.6rem;
+	background-color: #fff;
+	border-radius: 3px;
+	display: none;
+	
+	
+}
+#x1{
+	animation: jingubang 4.2s;
+	display: block;
+	
+}
+
+
+#mi2{
+	width: 100%;
+	height: 100%;
+}
+#mi3{
+	width: 100%;
+	height: 100%;
+}
+	
